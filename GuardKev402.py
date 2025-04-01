@@ -16,10 +16,10 @@ class GuardKev402(customtkinter.CTk):
 
         self.title("GuardKev402")
         try:
-            self.iconbitmap("icono.png") 
+            self.iconbitmap("icono.ico") 
             pass
         except tk.TclError:
-            print("Advertencia: No se pudo cargar 'icono.png'. Asegúrate de que el archivo exista y sea válido.")
+            print("Advertencia: No se pudo cargar 'icono.ico'. Asegúrate de que el archivo exista y sea válido.")
             
         self.geometry("900x700")
 
