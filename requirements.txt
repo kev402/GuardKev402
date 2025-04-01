@@ -1,2 +1,2 @@
-Pyside6
+customtkinter
 psutil
